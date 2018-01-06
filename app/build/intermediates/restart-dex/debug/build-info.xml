@@ -6,22 +6,22 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1515266017965"
+    timestamp="1515269585056"
     token="2618326939528932725"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="6546" />
+        duration="10000" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="61" />
+        duration="77" />
     <task
         name="verifier"
-        duration="61" />
+        duration="34" />
 
     <artifact
         location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -29,11 +29,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1515265423716"
+        timestamp="1515268996989"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Rahma\Documents\goalsandroid\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -42,9 +42,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -67,10 +64,13 @@
         <artifact
             location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Rahma\Documents\goalsandroid\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1515266017965"
+        timestamp="1515269585056"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Rahma\Documents\goalsandroid\app\build\intermediates\split-apk\debug\slices\slice_6.apk"

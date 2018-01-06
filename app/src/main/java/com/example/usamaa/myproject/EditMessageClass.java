@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 public class EditMessageClass extends AppCompatActivity {
 
@@ -27,11 +28,13 @@ public class EditMessageClass extends AppCompatActivity {
 
     public void saveButtonClicked(View v){
         String changedMessageText = ((EditText)findViewById(R.id.name)).getText().toString();
+        String changedMessageFrequency = ((Spinner)findViewById(R.id.frequency)).getSelectedItem().toString();
+        String changedMessageDescription = ((EditText)findViewById(R.id.description)).getText().toString();
         Intent intent = new Intent();
         intent.putExtra(Intent_Constants.INTENT_CHANGED_MESSAGE, changedMessageText);
         intent.putExtra(Intent_Constants.INTENT_ITEM_POSITION, position);
         setResult(Intent_Constants.INTENT_RESULT_CODE_TWO, intent);
-        handlerdb.updateGoal(messageText, changedMessageText);
+        handlerdb.updateGoal(messageText, changedMessageText, changedMessageFrequency, changedMessageDescription);
         finish();
     }
 

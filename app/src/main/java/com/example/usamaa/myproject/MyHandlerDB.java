@@ -1,5 +1,6 @@
 package com.example.usamaa.myproject;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -39,12 +40,23 @@ public class MyHandlerDB extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public void addGoal(String name, String frequency, String description){
+    /*public void addGoal(String name, String frequency, String description){
         SQLiteDatabase db = getWritableDatabase();
         db.execSQL("INSERT INTO " + TABLE_GOALS + "(" + COLUMN_NAME + ")" + "VALUES " + "('" + name + "');");
         Log.d("Hello", "AAAAAAAAAAAAAAZESXDFZRXTCFYGHYJTYCRUXESDCFGVHBKJGFCXSZTEXRYCTFUVYGBHNGVCFDXSEZ^X&CRVYGBHGVC X");
         Log.d("test", "INSERT INTO " + TABLE_GOALS + "(" + COLUMN_NAME + ", " + COLUMN_FREQUENCY + ", " + COLUMN_DESCRIPTION + ")" + " VALUES " + "('" + name + "', '" + frequency + "', '" + description + "');");
         //db.execSQL("INSERT INTO " + TABLE_GOALS + " (" + TABLE_GOALS+ ", " + COLUMN_FREQUENCY + ", " + COLUMN_DESCRIPTION + ")" + " VALUES " + "('" + name + "', '" + frequency + "', '" + description + "');");
+    }*/
+
+    public void addGoal(String name, String frequency, String description) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_NAME, name);
+        values.put(COLUMN_FREQUENCY, frequency);
+        values.put(COLUMN_DESCRIPTION, description);
+        // Inserting Row
+        db.insert(TABLE_GOALS, null, values);
+        db.close(); // Closing database connection
     }
 
     public void deleteGoal(String name){
@@ -52,10 +64,18 @@ public class MyHandlerDB extends SQLiteOpenHelper {
         db.execSQL("DELETE FROM " + TABLE_GOALS + " WHERE " + COLUMN_NAME + "=\"" + name + "\";");
     }
 
-    public void updateGoal(String old_name, String new_name){
+    public void updateGoal(String old_name, String new_name, String new_frequency, String new_description){
         SQLiteDatabase db = getWritableDatabase();
-        db.execSQL("UPDATE " + TABLE_GOALS + " SET " + COLUMN_NAME + "=\"" + new_name + "\" WHERE "
-                + COLUMN_NAME + "=\"" + old_name + "\";");
+        Log.d("Helllo","UPDATE " + TABLE_GOALS + " SET " +
+                COLUMN_NAME + "=\"" + new_name + "\"" +
+                COLUMN_FREQUENCY + "=\"" + new_frequency + "\"" +
+                COLUMN_DESCRIPTION + "=\"" + new_description + "\"" +
+                " WHERE " + COLUMN_NAME + "=\"" + old_name + "\";");
+        db.execSQL("UPDATE " + TABLE_GOALS + " SET " +
+                COLUMN_NAME + "=\"" + new_name + "\"" +
+                COLUMN_FREQUENCY + "=\"" + new_frequency + "\"" +
+                COLUMN_DESCRIPTION + "=\"" + new_description + "\"" +
+                " WHERE " + COLUMN_NAME + "=\"" + old_name + "\";");
     }
 
     public ArrayList<String> getData() {
