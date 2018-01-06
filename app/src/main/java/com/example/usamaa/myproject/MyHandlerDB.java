@@ -41,7 +41,7 @@ public class MyHandlerDB extends SQLiteOpenHelper {
 
     public void addGoal(String name, String frequency, String description){
         SQLiteDatabase db = getWritableDatabase();
-        db.execSQL("INSERT INTO " + TABLE_GOALS + "(" + COLUMN_NAMEcgnbfvdkbdkdlulhvhcjhghrhclhdign + ")" + "VALUES " + "('" + name + "');");
+        db.execSQL("INSERT INTO " + TABLE_GOALS + "(" + COLUMN_NAME + ")" + "VALUES " + "('" + name + "');");
         Log.d("Hello", "AAAAAAAAAAAAAAZESXDFZRXTCFYGHYJTYCRUXESDCFGVHBKJGFCXSZTEXRYCTFUVYGBHNGVCFDXSEZ^X&CRVYGBHGVC X");
         Log.d("test", "INSERT INTO " + TABLE_GOALS + "(" + COLUMN_NAME + ", " + COLUMN_FREQUENCY + ", " + COLUMN_DESCRIPTION + ")" + " VALUES " + "('" + name + "', '" + frequency + "', '" + description + "');");
         //db.execSQL("INSERT INTO " + TABLE_GOALS + " (" + TABLE_GOALS+ ", " + COLUMN_FREQUENCY + ", " + COLUMN_DESCRIPTION + ")" + " VALUES " + "('" + name + "', '" + frequency + "', '" + description + "');");
@@ -60,7 +60,7 @@ public class MyHandlerDB extends SQLiteOpenHelper {
 
     public ArrayList<String> getData() {
         SQLiteDatabase db = getWritableDatabase();
-        String query = "SELECT frequency FROM " + TABLE_GOALS + ";";
+        String query = "SELECT name FROM " + TABLE_GOALS + ";";
         Cursor cursor = db.rawQuery(query, null);
 
         ArrayList<String> arrayList =  new ArrayList<String>();
@@ -68,7 +68,7 @@ public class MyHandlerDB extends SQLiteOpenHelper {
         if(cursor != null) {
             cursor.moveToFirst();
             while(cursor.isAfterLast() != true) {
-                arrayList.add(cursor.getString(cursor.getColumnIndex("frequency")));
+                arrayList.add(cursor.getString(cursor.getColumnIndex("name")));
                 cursor.moveToNext();
             }
         }

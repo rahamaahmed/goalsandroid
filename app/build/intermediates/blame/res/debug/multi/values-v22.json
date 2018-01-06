@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+        "outputFile": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v22/values-v22.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v22/values-v22.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 548
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v22/values-v22.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 896
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v22/values-v22.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

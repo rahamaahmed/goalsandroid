@@ -1,66 +1,66 @@
 [
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\b50e78747c78ee1bebee1c93d5f7f4f58eaa6186\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_fade_out.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_popup_exit.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\b50e78747c78ee1bebee1c93d5f7f4f58eaa6186\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/tooltip_exit.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/anim/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_slide_out_top.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\tooltip_enter.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/tooltip_enter.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\b50e78747c78ee1bebee1c93d5f7f4f58eaa6186\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/anim/design_snackbar_out.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\b50e78747c78ee1bebee1c93d5f7f4f58eaa6186\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_fade_in.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/anim/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/anim/design_snackbar_in.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\tooltip_exit.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_popup_enter.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/anim/abc_slide_in_top.xml"
+        "merged": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\anim\\abc_slide_in_bottom.xml"
     }
 ]

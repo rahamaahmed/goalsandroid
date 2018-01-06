@@ -1,7 +1,7 @@
-#Sun Dec 31 21:27:40 EST 2017
-base.0=/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d8fa6341e4777da2577c62988cbba7b93a85f607
+#Sat Jan 06 14:03:59 EST 2018
+base.0=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_272c705775caf1f6939e0ce578783ebac5abd49b
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_56791a21f10e0cd6ce2bc984334d24791e71de5c/classes.dex
-base.1=/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_56791a21f10e0cd6ce2bc984334d24791e71de5c
-file.0=/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d8fa6341e4777da2577c62988cbba7b93a85f607/classes.dex
+file.1=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dcc6ebe75d478170e7dbd54f59e1238ba22679a0\\classes.dex
+base.1=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dcc6ebe75d478170e7dbd54f59e1238ba22679a0
+file.0=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_272c705775caf1f6939e0ce578783ebac5abd49b\\classes.dex

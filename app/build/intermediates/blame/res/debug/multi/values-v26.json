@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+        "outputFile": "C:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 426
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 652
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -92,7 +92,7 @@
                     "endOffset": 891
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -113,7 +113,7 @@
                     "endOffset": 1135
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\b50e78747c78ee1bebee1c93d5f7f4f58eaa6186\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -133,7 +133,7 @@
                     "endOffset": 1228
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -152,7 +152,7 @@
                     "endOffset": 1325
                 },
                 "from": {
-                    "file": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/values-v26/values-v26.xml",
+                    "file": "C:\\Users\\Rahma\\.android\\build-cache\\b50e78747c78ee1bebee1c93d5f7f4f58eaa6186\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
