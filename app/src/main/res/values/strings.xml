@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyProject</string>
+
+<string-array name="frequencies">
+    <item>Daily</item>
+    <item>Weekly</item>
+</string-array>
+</resources>

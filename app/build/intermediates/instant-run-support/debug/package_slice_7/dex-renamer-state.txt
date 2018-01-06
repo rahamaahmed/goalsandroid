@@ -1,0 +1,4 @@
+#Sun Dec 31 21:27:40 EST 2017
+base.0=/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

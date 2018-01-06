@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/usamaa/.android/build-cache/81c6ff3253e1c7e76ac8248fbb038624cc7fd7cd/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.1.0] /Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/usamaa/.android/build-cache/8d65e4fc6d56b5d18c59b7c4aac0120c9e31389a/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/usamaa/.android/build-cache/7b81d48ba14126e9a09563f981d2cb724f491d01/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/usamaa/.android/build-cache/0ff6e8c7f7e4042e95c1c9ac438cf59ac4f302d6/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/usamaa/.android/build-cache/3182d46f33394854ebf9b7af25bac3a7035a9998/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/usamaa/.android/build-cache/9710d2b3e2d0f458fd6f1e16bda3507c11bebc0f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/usamaa/.android/build-cache/b0195e510f6a138e88780172e427a59d5b00b7ba/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/usamaa/.android/build-cache/3cf33d333718f3462e7f974748f63086c97311b0/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/usamaa/.android/build-cache/2cd26148b4bb77de81bcd5aa425e6329549332b3/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/usamaa/.android/build-cache/99f9b072e0dd2a4983691be2390fe3b494db6507/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/usamaa/.android/build-cache/dbca310aac1c739f027ddc92ed7ceb1fdbaeca29/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/usamaa/.android/build-cache/6659e7a3eb822ce53651165a3f073ba59f99c511/output/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.usamaa.myproject.MainActivity
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.usamaa.myproject.EditFieldClass
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:19:9-52
+	android:name
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:19:19-49
+activity#com.example.usamaa.myproject.EditMessageClass
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:20:9-53
+	android:name
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:20:19-51
+activity#com.example.usamaa.myproject.Repeating_activity
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:21:9-55
+	android:name
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:21:19-53
+receiver#com.example.usamaa.myproject.Notification_reciever
+ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:22:9-58
+	android:name
+		ADDED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml:22:19-56
+uses-sdk
+INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/usamaa/.android/build-cache/81c6ff3253e1c7e76ac8248fbb038624cc7fd7cd/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.1.0] /Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/usamaa/.android/build-cache/8d65e4fc6d56b5d18c59b7c4aac0120c9e31389a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/usamaa/.android/build-cache/7b81d48ba14126e9a09563f981d2cb724f491d01/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/usamaa/.android/build-cache/0ff6e8c7f7e4042e95c1c9ac438cf59ac4f302d6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/usamaa/.android/build-cache/3182d46f33394854ebf9b7af25bac3a7035a9998/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/usamaa/.android/build-cache/9710d2b3e2d0f458fd6f1e16bda3507c11bebc0f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/usamaa/.android/build-cache/b0195e510f6a138e88780172e427a59d5b00b7ba/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/usamaa/.android/build-cache/3cf33d333718f3462e7f974748f63086c97311b0/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/usamaa/.android/build-cache/2cd26148b4bb77de81bcd5aa425e6329549332b3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/usamaa/.android/build-cache/99f9b072e0dd2a4983691be2390fe3b494db6507/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/usamaa/.android/build-cache/dbca310aac1c739f027ddc92ed7ceb1fdbaeca29/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/usamaa/.android/build-cache/6659e7a3eb822ce53651165a3f073ba59f99c511/output/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/usamaa/AndroidStudioProjects/MyProject/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/usamaa/.android/build-cache/8d65e4fc6d56b5d18c59b7c4aac0120c9e31389a/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/usamaa/.android/build-cache/7b81d48ba14126e9a09563f981d2cb724f491d01/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/usamaa/.android/build-cache/0ff6e8c7f7e4042e95c1c9ac438cf59ac4f302d6/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/usamaa/.android/build-cache/3182d46f33394854ebf9b7af25bac3a7035a9998/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/usamaa/.android/build-cache/9710d2b3e2d0f458fd6f1e16bda3507c11bebc0f/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/usamaa/.android/build-cache/b0195e510f6a138e88780172e427a59d5b00b7ba/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/usamaa/.android/build-cache/3cf33d333718f3462e7f974748f63086c97311b0/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/usamaa/.android/build-cache/2cd26148b4bb77de81bcd5aa425e6329549332b3/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/usamaa/.android/build-cache/99f9b072e0dd2a4983691be2390fe3b494db6507/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/usamaa/.android/build-cache/dbca310aac1c739f027ddc92ed7ceb1fdbaeca29/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/usamaa/.android/build-cache/6659e7a3eb822ce53651165a3f073ba59f99c511/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/usamaa/.android/build-cache/6659e7a3eb822ce53651165a3f073ba59f99c511/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/usamaa/.android/build-cache/6659e7a3eb822ce53651165a3f073ba59f99c511/output/AndroidManifest.xml:26:13-58

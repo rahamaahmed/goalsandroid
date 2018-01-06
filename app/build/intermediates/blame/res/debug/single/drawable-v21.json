@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/usamaa/.android/build-cache/dbca310aac1c739f027ddc92ed7ceb1fdbaeca29/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/usamaa/.android/build-cache/698ec21b705198e5d170ea7e9364f419a49f0aff/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/usamaa/AndroidStudioProjects/MyProject/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/usamaa/.android/build-cache/9202e6f7baa237f24c83ae0977c564cd508adca9/output/res/drawable-v21/avd_show_password.xml"
+    }
+]
