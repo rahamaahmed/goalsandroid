@@ -18,7 +18,7 @@ public class EditMessageClass extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.to_do_layout);
 
-        handlerdb = new MyHandlerDB(this, null, null, 1);
+        handlerdb = new MyHandlerDB(this, null, null, 202);
         Intent intent = getIntent();
         messageText = intent.getStringExtra(Intent_Constants.INTENT_MESSAGE_DATA);
         position = intent.getIntExtra(Intent_Constants.INTENT_ITEM_POSITION, -1);

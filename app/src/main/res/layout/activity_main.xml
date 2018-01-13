@@ -21,4 +21,12 @@
         android:onClick="onClick"
         ></android.support.design.widget.FloatingActionButton>
 
+    <Button
+        android:id="@+id/database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Database"
+        android:textSize="20sp" />
+
 </RelativeLayout>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xm
 		INJECTED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rahma\.android\build-cache\cfa776e159de4f545fc44c9231ae473494cd8e0d\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] C:\Users\Rahma\.android\build-cache\b50e78747c78ee1bebee1c93d5f7f4f58eaa6186\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Rahma\.android\build-cache\71682d70c03b7c9d8b76cf3b70a5b353e0cc12c9\output\AndroidManifest.xml:25:5-29:19
@@ -41,36 +41,42 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Rahma\.android\build
 		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.usamaa.myproject.AndroidDatabaseManager
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:12:9-13:48
+	android:label
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:12:19-57
 activity#com.example.usamaa.myproject.MainActivity
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.example.usamaa.myproject.EditFieldClass
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:19:9-52
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:21:9-52
 	android:name
-		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:19:19-49
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:21:19-49
 activity#com.example.usamaa.myproject.EditMessageClass
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:20:9-53
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:22:9-54
 	android:name
-		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:20:19-51
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:22:19-51
 activity#com.example.usamaa.myproject.Repeating_activity
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:21:9-55
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:23:9-56
 	android:name
-		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:21:19-53
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:23:19-53
 receiver#com.example.usamaa.myproject.Notification_reciever
-ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:22:9-58
+ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:25:9-59
 	android:name
-		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:22:19-56
+		ADDED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml:25:19-56
 uses-sdk
 INJECTED from C:\Users\Rahma\Documents\goalsandroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rahma\.android\build-cache\cfa776e159de4f545fc44c9231ae473494cd8e0d\output\AndroidManifest.xml:5:5-7:41

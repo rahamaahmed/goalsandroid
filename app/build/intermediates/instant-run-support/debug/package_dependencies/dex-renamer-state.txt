@@ -1,4 +1,4 @@
-#Sat Jan 06 13:57:42 EST 2018
+#Sun Jan 07 19:38:50 EST 2018
 file.2=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_03f2ada2b3b17b895207c4b4f2a446d6e7fd2003\\classes.dex
 base.2=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_03f2ada2b3b17b895207c4b4f2a446d6e7fd2003
 file.1=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_7cb5ee9dcb1e2c5160b40ed8bfa2c190524c3681\\classes.dex

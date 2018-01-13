@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.io.FileNotFoundException;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     String messageText;
     int position;
     MyHandlerDB handlerdb;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,11 +34,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        button = (Button) findViewById(R.id.database);
         listView = (ListView) findViewById(R.id.listView);
         arrayList = new ArrayList<>();
-        handlerdb = new MyHandlerDB(this, null, null, 1);
+        handlerdb = new MyHandlerDB(this, null, null, 202);
         arrayList.clear();
-        arrayList = handlerdb.getData();
+        arrayList = handlerdb.getDataTest();
 
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arrayList);
         listView.setAdapter(arrayAdapter);
@@ -49,6 +52,14 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(Intent_Constants.INTENT_ITEM_POSITION,position);
                 startActivityForResult(intent,Intent_Constants.INTENT_REQUEST_CODE_TWO);
 
+            }
+        });
+
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent dbmanager = new Intent(MainActivity.this,AndroidDatabaseManager.class);
+                startActivity(dbmanager);
             }
         });
 

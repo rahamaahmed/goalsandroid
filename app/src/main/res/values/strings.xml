@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">MyProject</string>
 
-<string-array name="frequencies">
-    <item>Daily</item>
-    <item>Weekly</item>
-</string-array>
+    <string-array name="frequencies">
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+    <string name="title_activity_android_database_manager">AndroidDatabaseManager</string>
 </resources>

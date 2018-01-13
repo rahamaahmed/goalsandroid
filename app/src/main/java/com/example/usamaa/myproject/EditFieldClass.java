@@ -5,7 +5,6 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,7 +29,7 @@ public class EditFieldClass extends AppCompatActivity {
         save = (Button) findViewById(R.id.save);
         frequency = (Spinner) findViewById(R.id.frequency);
         description = (EditText) findViewById(R.id.description);
-        handlerdb = new MyHandlerDB(this, null, null, 1);
+        handlerdb = new MyHandlerDB(this, null, null, 202);
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,17 +62,12 @@ public class EditFieldClass extends AppCompatActivity {
 
                 }
                 else{
-
                     Intent intent_const = new Intent();
-
-                    Toast.makeText(getApplicationContext(), "msg -  " + messageText + " \n" + "intent const -  " +  intent_const.getStringExtra(Intent_Constants.INTENT_MESSAGE_FIELD), Toast.LENGTH_SHORT).show();
-
+                   //Toast.makeText(getApplicationContext(), "msg -  " + messageText + " \n" + "intent const -  " +  intent_const.getStringExtra(Intent_Constants.INTENT_MESSAGE_FIELD), Toast.LENGTH_SHORT).show();
                     intent_const.putExtra(Intent_Constants.INTENT_MESSAGE_FIELD, messageText);
                     setResult(Intent_Constants.INTENT_RESULT_CODE,intent_const);
                     finish();
                 }
-
-                Log.d("Hello","sdfhjskdfhsidfheiufhsuifhufsufufasufiusdfsdfheiufcnbeofnawrrufn");
 
                 handlerdb.addGoal(name.getText().toString(), frequency.getSelectedItem().toString(), description.getText().toString());
 
