@@ -17,7 +17,6 @@ public class EditFieldClass extends AppCompatActivity {
 
     Button save;
     EditText name, description;
-    Spinner frequency;
     MyHandlerDB handlerdb;
 
     @Override
@@ -27,9 +26,8 @@ public class EditFieldClass extends AppCompatActivity {
 
         name = (EditText) findViewById(R.id.name);
         save = (Button) findViewById(R.id.save);
-        frequency = (Spinner) findViewById(R.id.frequency);
         description = (EditText) findViewById(R.id.description);
-        handlerdb = new MyHandlerDB(this, null, null, 202);
+        handlerdb = new MyHandlerDB(this, null, null, 203);
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,22 +37,7 @@ public class EditFieldClass extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Enter the Data", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    Toast.makeText(getApplicationContext(), "Name -  " + name.getText().toString() + " \n" + "Frequency -  " + frequency.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
-                }
-
-                Calendar calendar = Calendar.getInstance();
-                calendar.set(Calendar.HOUR_OF_DAY,00);
-                calendar.set(Calendar.MINUTE,00);
-                calendar.set(Calendar.SECOND,00);
-                Intent intent = new Intent(getApplicationContext(), Notification_reciever.class);
-                PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(),100,intent,PendingIntent.FLAG_UPDATE_CURRENT);
-                AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-
-                if (frequency.getSelectedItem().toString()=="Daily") {
-                    alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),AlarmManager.INTERVAL_DAY,pendingIntent);
-                }
-                else if (frequency.getSelectedItem().toString()=="Weekly") {
-                    alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),AlarmManager.INTERVAL_DAY * 7,pendingIntent);
+                    Toast.makeText(getApplicationContext(), "Name -  " + name.getText().toString(), Toast.LENGTH_SHORT).show();
                 }
 
                 String messageText = ((EditText)findViewById(R.id.name)).getText().toString();
@@ -63,13 +46,12 @@ public class EditFieldClass extends AppCompatActivity {
                 }
                 else{
                     Intent intent_const = new Intent();
-                   //Toast.makeText(getApplicationContext(), "msg -  " + messageText + " \n" + "intent const -  " +  intent_const.getStringExtra(Intent_Constants.INTENT_MESSAGE_FIELD), Toast.LENGTH_SHORT).show();
                     intent_const.putExtra(Intent_Constants.INTENT_MESSAGE_FIELD, messageText);
                     setResult(Intent_Constants.INTENT_RESULT_CODE,intent_const);
                     finish();
                 }
 
-                handlerdb.addGoal(name.getText().toString(), frequency.getSelectedItem().toString(), description.getText().toString());
+                handlerdb.addGoal(name.getText().toString(), description.getText().toString());
 
 
             }

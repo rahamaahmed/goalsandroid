@@ -14,16 +14,6 @@
         android:hint="Name"
         android:selectAllOnFocus="true" />
 
-    <Spinner
-        android:id="@+id/frequency"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="10dp"
-        android:entries="@array/frequencies"/>
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -10,14 +10,12 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MyProject"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.usamaa.myproject.AndroidDatabaseManager"
-            android:label="@string/app_name" />
         <activity android:name="com.example.usamaa.myproject.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,10 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.usamaa.myproject.EditFieldClass" />
-        <activity android:name="com.example.usamaa.myproject.EditMessageClass" />
-        <activity android:name="com.example.usamaa.myproject.Repeating_activity" />
-
-        <receiver android:name="com.example.usamaa.myproject.Notification_reciever" />
+        <activity android:name="com.example.usamaa.myproject.EditItemActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

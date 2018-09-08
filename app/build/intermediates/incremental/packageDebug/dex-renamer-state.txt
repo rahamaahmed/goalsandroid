@@ -1,7 +1,0 @@
-#Sun Jan 07 19:38:55 EST 2018
-base.0=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_272c705775caf1f6939e0ce578783ebac5abd49b
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dcc6ebe75d478170e7dbd54f59e1238ba22679a0\\classes.dex
-base.1=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dcc6ebe75d478170e7dbd54f59e1238ba22679a0
-file.0=C\:\\Users\\Rahma\\Documents\\goalsandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_272c705775caf1f6939e0ce578783ebac5abd49b\\classes.dex

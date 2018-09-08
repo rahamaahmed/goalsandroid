@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     String messageText;
     int position;
     MyHandlerDB handlerdb;
-    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +33,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.database);
         listView = (ListView) findViewById(R.id.listView);
         arrayList = new ArrayList<>();
-        handlerdb = new MyHandlerDB(this, null, null, 202);
+        handlerdb = new MyHandlerDB(this, null, null, 203);
         arrayList.clear();
         arrayList = handlerdb.getDataTest();
 
@@ -47,21 +45,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent();
-                intent.setClass(MainActivity.this, EditMessageClass.class);
+                intent.setClass(MainActivity.this, EditItemActivity.class);
                 intent.putExtra(Intent_Constants.INTENT_MESSAGE_DATA, arrayList.get(position).toString());
                 intent.putExtra(Intent_Constants.INTENT_ITEM_POSITION,position);
                 startActivityForResult(intent,Intent_Constants.INTENT_REQUEST_CODE_TWO);
-
             }
         });
 
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                Intent dbmanager = new Intent(MainActivity.this,AndroidDatabaseManager.class);
-                startActivity(dbmanager);
-            }
-        });
 
         try{
             Scanner sc = new Scanner(openFileInput("Todo.txt"));
