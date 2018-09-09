@@ -79,10 +79,10 @@ public class MainActivity extends AppCompatActivity {
         }
         finish();
     }
-    
+
     public void onClick(View v){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this, EditFieldClass.class);
+        intent.setClass(MainActivity.this, AddItemActivity.class);
         startActivityForResult(intent, Intent_Constants.INTENT_REQUEST_CODE);
     }
 

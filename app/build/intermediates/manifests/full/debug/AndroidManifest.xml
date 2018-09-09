@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.usamaa.myproject.EditFieldClass" />
+        <activity android:name="com.example.usamaa.myproject.AddItemActivity" />
         <activity android:name="com.example.usamaa.myproject.EditItemActivity" />
 
         <meta-data

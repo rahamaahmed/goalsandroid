@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import java.util.Calendar;
 
-public class EditFieldClass extends AppCompatActivity {
+public class AddItemActivity extends AppCompatActivity {
 
     Button save;
     EditText name, description;
