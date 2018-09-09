@@ -9,7 +9,7 @@ import android.widget.Spinner;
 
 public class EditItemActivity extends AppCompatActivity {
 
-    String messageText;
+    String title;
     int position;
     MyHandlerDB handlerdb;
 
@@ -18,12 +18,12 @@ public class EditItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.to_do_layout);
 
-        handlerdb = new MyHandlerDB(this, null, null, 203);
+        handlerdb = new MyHandlerDB(this, null, null, 209);
         Intent intent = getIntent();
-        messageText = intent.getStringExtra(Intent_Constants.INTENT_MESSAGE_DATA);
+        title = intent.getStringExtra(Intent_Constants.INTENT_TITLE_DATA);
         position = intent.getIntExtra(Intent_Constants.INTENT_ITEM_POSITION, -1);
-        EditText messageData = (EditText) findViewById(R.id.name);
-        messageData.setText(messageText);
+        EditText titleField = (EditText) findViewById(R.id.name);
+        titleField.setText(title);
     }
 
     public void saveButtonClicked(View v){
@@ -33,7 +33,7 @@ public class EditItemActivity extends AppCompatActivity {
         intent.putExtra(Intent_Constants.INTENT_CHANGED_MESSAGE, changedMessageText);
         intent.putExtra(Intent_Constants.INTENT_ITEM_POSITION, position);
         setResult(Intent_Constants.INTENT_RESULT_CODE_TWO, intent);
-        handlerdb.updateGoal(messageText, changedMessageText, changedMessageDescription);
+        handlerdb.updateGoal(title, changedMessageText, changedMessageDescription);
         finish();
     }
 
@@ -41,7 +41,7 @@ public class EditItemActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.putExtra(Intent_Constants.INTENT_ITEM_POSITION, position);
         setResult(Intent_Constants.INTENT_RESULT_CODE_THREE, intent);
-        handlerdb.deleteGoal(messageText);
+        handlerdb.deleteGoal(title);
         finish();
     }
 }

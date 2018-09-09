@@ -74,7 +74,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rahmaahmed/.gradle/cac
 	android:icon
 		ADDED from /Users/rahmaahmed/Documents/AndroidProjects/goalsandroid/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/rahmaahmed/Documents/AndroidProjects/goalsandroid/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/rahmaahmed/Documents/AndroidProjects/goalsandroid/app/src/main/AndroidManifest.xml:6:9-36
 	android:theme
 		ADDED from /Users/rahmaahmed/Documents/AndroidProjects/goalsandroid/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.usamaa.myproject.MainActivity

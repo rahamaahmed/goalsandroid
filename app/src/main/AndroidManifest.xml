@@ -3,7 +3,7 @@
     package="com.example.usamaa.myproject">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="MyProject"
         android:roundIcon="@mipmap/ic_launcher_round"

@@ -10,50 +10,42 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+import android.util.Log;
+import android.text.TextUtils;
 import java.util.Calendar;
 
 public class AddItemActivity extends AppCompatActivity {
 
     Button save;
-    EditText name, description;
-    MyHandlerDB handlerdb;
+    EditText titleField, descriptionField;
+    MyHandlerDB handlerdb = new MyHandlerDB(this, null, null, 209);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.to_do_layout);
 
-        name = (EditText) findViewById(R.id.name);
+        titleField = (EditText) findViewById(R.id.name);
+        descriptionField = (EditText) findViewById(R.id.description);
         save = (Button) findViewById(R.id.save);
-        description = (EditText) findViewById(R.id.description);
-        handlerdb = new MyHandlerDB(this, null, null, 203);
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                if (name.getText().toString().isEmpty()) {
-                    Toast.makeText(getApplicationContext(), "Enter the Data", Toast.LENGTH_SHORT).show();
+                String title = titleField.getText().toString();
+                String description = descriptionField.getText().toString();
+
+                if (TextUtils.isEmpty(title) && TextUtils.isEmpty(description)) {
+                    Toast.makeText(getApplicationContext(), "Please enter the info", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    Toast.makeText(getApplicationContext(), "Name -  " + name.getText().toString(), Toast.LENGTH_SHORT).show();
-                }
-
-                String messageText = ((EditText)findViewById(R.id.name)).getText().toString();
-                if(messageText.equals("")){
-
-                }
-                else{
+                    Toast.makeText(getApplicationContext(), "Name -  " + title, Toast.LENGTH_SHORT).show();
                     Intent intent_const = new Intent();
-                    intent_const.putExtra(Intent_Constants.INTENT_MESSAGE_FIELD, messageText);
                     setResult(Intent_Constants.INTENT_RESULT_CODE,intent_const);
                     finish();
+                    handlerdb.addGoal(title, description);
                 }
-
-                handlerdb.addGoal(name.getText().toString(), description.getText().toString());
-
-
             }
         });
     }
