@@ -19,6 +19,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:onClick="onClick"
+        android:tint="@android:color/white"
+        android:src="@android:drawable/ic_input_add"
         ></android.support.design.widget.FloatingActionButton>
     
 

@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, EditItemActivity.class);
                 intent.putExtra(Intent_Constants.INTENT_ITEM_POSITION, position);
+                String title = (String) parent.getItemAtPosition(position);
+                intent.putExtra(Intent_Constants.INTENT_TITLE_DATA, title);
                 startActivityForResult(intent,Intent_Constants.INTENT_REQUEST_CODE_TWO);
             }
         });

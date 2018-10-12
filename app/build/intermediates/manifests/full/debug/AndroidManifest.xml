@@ -12,7 +12,7 @@
         android:allowBackup="false"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="MyProject"
+        android:label="Things to Do"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
